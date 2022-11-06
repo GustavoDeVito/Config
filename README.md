@@ -1,6 +1,4 @@
-# Config
-
-## Windows 11
+## Windows
   - [Font Powerline](https://gist.github.com/stramel/658d702f3af8a86a6fe8b588720e0e23)
 
 ## WLS 2
@@ -44,10 +42,10 @@
     > plugins=(git git-flow F-Sy-H zsh-autosuggestions zsh-completions)
     source ~/.zshrc
 
-### Plugins: 
+#### Plugins: 
   - [F-Sy-H](https://github.com/zdharma/fast-syntax-highlighting)
   - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
   - [zsh-completions](https://github.com/zsh-users/zsh-completions)
  
-### Theme:
+#### Theme:
   - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
