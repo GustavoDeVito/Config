@@ -3,6 +3,8 @@
   - [Git](https://git-scm.com/downloads) - [*Config*](https://git-scm.com/book/pt-br/v2/Começando-Configuração-Inicial-do-Git)
   - [Font Powerline](https://gist.github.com/stramel/658d702f3af8a86a6fe8b588720e0e23)
 
+<br />
+
 ## WLS 2
     
 *Install Distro*
@@ -26,12 +28,16 @@ processos=4
 swap=4GB
 ```
 
+<br />
+
 ## WSL 2 - Ubuntu
 
 ```bash
 sudo apt update
 sudo apt install curl wget git
 ```
+
+<br />
   
 ### Zsh
 
@@ -48,6 +54,8 @@ chsh -s /usr/bin/zsh
 ```
 
 *Close Terminal and open again (option 2)*
+
+<br />
 
 ### Oh My Zsh
     
@@ -84,6 +92,8 @@ plugins=(git git-flow F-Sy-H zsh-autosuggestions zsh-completions)
 ```bash
 source ~/.zshrc
 ```
+
+<br />
 
 ## WSL 2 - Docker
 
