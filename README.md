@@ -1,6 +1,6 @@
 # Config
 
-# Windows
+## Windows 11
   - [Font Powerline](https://gist.github.com/stramel/658d702f3af8a86a6fe8b588720e0e23)
 
 ## WLS 2
