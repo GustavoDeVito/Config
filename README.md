@@ -23,9 +23,9 @@ wsl --unregister distro
 
 ```txt
 [wsl2]
-memory=12GB
+memory=8GB
 processos=4
-swap=4GB
+swap=2GB
 ```
 
 <br />
