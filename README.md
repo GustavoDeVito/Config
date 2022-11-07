@@ -179,6 +179,7 @@ node -v
 wget https://golang.org/dl/go1.19.3.linux-amd64.tar.gz
 tar -xzf go1.19.3.linux-amd64.tar.gz -C /usr/local/
 sudo tar -xzf go1.19.3.linux-amd64.tar.gz -C /usr/local/
+rm -rf go1.19.3.linux-amd64.tar.gz
 sudo vim /etc/profile
 source /etc/profile
 go version
