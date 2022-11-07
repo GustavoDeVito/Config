@@ -167,4 +167,19 @@ command="service docker start"
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 sudo apt-get install -y nodejs
+node -v
+```
+
+<br />
+
+## WSL 2 - Golang
+
+*Verification version: [GO](https://go.dev/dl/)*
+```bash
+wget https://golang.org/dl/go1.19.3.linux-amd64.tar.gz
+tar -xzf go1.19.3.linux-amd64.tar.gz -C /usr/local/
+sudo tar -xzf go1.19.3.linux-amd64.tar.gz -C /usr/local/
+sudo vim /etc/profile
+source /etc/profile
+go version
 ```
