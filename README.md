@@ -162,7 +162,7 @@ command="service docker start"
 
 <br />
 
-## WSL 2 - Node.JS
+## WSL 2 - Node.js
 
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
