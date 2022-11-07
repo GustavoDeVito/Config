@@ -19,7 +19,12 @@ wsl --install distro
 wsl --unregister distro
 ```
     
-*Config file > C:\Users\<username>\.wslconfig*
+*Config file*
+
+```bash
+touch C:\Users\<username>\.wslconfig
+vim C:\Users\<username>\.wslconfig
+```
 
 ```txt
 [wsl2]
