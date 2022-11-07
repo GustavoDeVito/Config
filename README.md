@@ -23,6 +23,9 @@ wsl --unregister distro
 
 ```bash
 touch C:\Users\<username>\.wslconfig
+```
+
+```bash
 vim C:\Users\<username>\.wslconfig
 ```
 
