@@ -159,3 +159,12 @@ sudo vim /etc/wsl.conf
 [boot]
 command="service docker start" 
 ```
+
+<br />
+
+## WSL 2 - Node.JS
+
+```bash
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
