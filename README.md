@@ -142,8 +142,16 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```bash
 sudo usermod -aG docker $USER
 ```
-    
- *Service Docker*
+
+*Install Docker Compose*
+
+```bash
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version
+```
+
+*Service Docker*
  
 ```bash
 sudo service docker start
