@@ -180,6 +180,11 @@ sudo apt-get install -y nodejs
 node -v
 ```
 
+*pnpm*
+```bash
+sudo npm install -g pnpm
+```
+
 <br />
 
 ## WSL 2 - Golang
