@@ -12,13 +12,13 @@
 *Install Distro*
 
 ```bash
-wsl --install distro
+wsl --install -d distro
 ```
 
 *Uninstall Distro*
 
 ```bash
-wsl --unregister distro
+wsl --unregister -d distro
 ```
     
 *Config file*
