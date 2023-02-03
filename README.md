@@ -213,8 +213,8 @@ sudo mv apache-maven-3.6.3 /opt/
 
 ```txt
 [zshrc]
-M2_HOME='/opt/apache-maven-3.6.3'
-PATH="$M2_HOME/bin:$PATH"
+M2_HOME=/opt/apache-maven-3.6.3
+PATH=$M2_HOME/bin:$PATH
 ```
 
 ```bash
