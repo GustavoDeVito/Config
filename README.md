@@ -199,3 +199,14 @@ sudo vim /etc/profile
 source /etc/profile
 go version
 ```
+
+<br />
+
+## WSL 2 - Java & Maven
+
+```bash
+sudo apt install openjdk-17-jdk openjdk-17-jre
+wget https://mirrors.estointernet.in/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+tar -xvf apache-maven-3.6.3-bin.tar.gz
+sudo mv apache-maven-3.6.3 /opt/
+```
