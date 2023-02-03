@@ -44,7 +44,7 @@ swap=2GB
 
 ```bash
 sudo apt update
-sudo apt install curl wget git
+sudo apt install vim curl wget git
 ```
 
 <br />
