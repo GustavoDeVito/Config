@@ -101,6 +101,9 @@ plugins=(git git-flow F-Sy-H zsh-autosuggestions zsh-completions)
     
 ```bash
 source ~/.zshrc
+
+# Reset Config
+#p10k configure
 ```
 
 <br />
