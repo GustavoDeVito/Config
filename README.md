@@ -215,6 +215,8 @@ java --version
 javac --version
 ```
 
+<br />
+
 ### WSL 2 - Maven
 
 ```bash
@@ -231,6 +233,8 @@ mvn --version
 M2_HOME=/opt/apache-maven-3.6.3
 PATH=$M2_HOME/bin:$PATH
 ```
+
+<br />
 
 ### WSL 2 - Oracle Instant Client
 
