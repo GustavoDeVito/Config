@@ -251,3 +251,24 @@ sudo apt install libaio1
 sudo sh -c "echo /opt/oracle/instantclient_21_4 > /etc/ld.so.conf.d/oracle-instantclient.conf"
 sudo ldconfig
 ```
+
+<br />
+
+## WSL 2 - Python
+
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install python3
+sudo apt install python3-pip
+```
+
+<br />
+
+### WSL 2 - Jupyter Notebook
+
+```bash
+pip3 install notebook
+
+# Run Server: python3 -m notebook
+```
