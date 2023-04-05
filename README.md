@@ -239,17 +239,19 @@ PATH=$M2_HOME/bin:$PATH
 ### WSL 2 - Oracle Instant Client
 
 ```bash
-cd /opt/
 sudo mkdir /opt/oracle
+cd /opt/oracle
 
-sudo wget -L https://download.oracle.com/otn_software/linux/instantclient/214000/instantclient-basic-linux.x64-21.4.0.0.0dbru.zip -o instantclient_21_4
-sudo unzip instantclient_21_4
+sudo wget https://download.oracle.com/otn_software/linux/instantclient/214000/instantclient-basic-linux.x64-21.4.0.0.0dbru.zip
+sudo unzip instantclient-basic-linux.x64-21.4.0.0.0dbru.zip
 
 sudo apt update
 sudo apt install libaio1
 
 sudo sh -c "echo /opt/oracle/instantclient_21_4 > /etc/ld.so.conf.d/oracle-instantclient.conf"
 sudo ldconfig
+
+sudo rm -rf instantclient-basic-linux.x64-21.4.0.0.0dbru.zip
 ```
 
 <br />
