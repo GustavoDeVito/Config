@@ -242,7 +242,7 @@ PATH=$M2_HOME/bin:$PATH
 cd /opt/
 sudo mkdir /opt/oracle
 
-sudo wget https://download.oracle.com/otn_software/linux/instantclient/214000/instantclient-basic-linux.x64-21.4.0.0.0dbru.zip
+sudo wget -L https://download.oracle.com/otn_software/linux/instantclient/214000/instantclient-basic-linux.x64-21.4.0.0.0dbru.zip -o instantclient_21_4
 sudo unzip instantclient_21_4
 
 sudo apt update
