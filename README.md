@@ -297,6 +297,7 @@ yarn add --dev eslint-plugin-import-helpers
 
 ### NodeJS - NextJS - ESLint
 ```
+//.eslintrc.json
 {
     "env": {
         "browser": true,
@@ -357,6 +358,7 @@ yarn add --dev eslint-plugin-import-helpers
 
 ### NodeJS - NextJS - Prettier
 ```text
+//.prettier
 {
     "trailingComma": "none",
     "semi": true,
@@ -368,6 +370,7 @@ yarn add --dev eslint-plugin-import-helpers
 
 ### NodeJS - NextJS - VSCode Settings
 ```text
+//.vscode/settings.json
 {
     "editor.formatOnSave": false,
     "editor.codeActionsOnSave": {
