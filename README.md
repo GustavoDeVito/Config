@@ -185,6 +185,11 @@ sudo apt-get install -y nodejs
 node -v
 ```
 
+*yarn*
+```bash
+sudo npm install --global yarn
+```
+
 *pnpm*
 ```bash
 sudo npm install -g pnpm
@@ -273,4 +278,100 @@ sudo apt install python3-pip
 pip3 install notebook
 
 # Run Server: python3 -m notebook
+```
+
+<br />
+
+## NodeJS - NextJS
+
+```bash
+npm init @eslint/config
+yarn add eslint-plugin-react-hooks --dev
+
+yarn add --dev --exact prettier
+yarn add --dev eslint-config-prettier eslint-plugin-prettier
+yarn add --dev eslint-plugin-import-helpers
+```
+
+<br />
+
+### NodeJS - NextJS - ESLint
+```
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "react-hooks",
+        "eslint-plugin-import-helpers"
+    ],
+    "rules": {
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "react/react-in-jsx-scope": "off",
+        "prettier/prettier": "error",
+        "import-helpers/order-imports": [
+            "warn",
+            {
+                "newlinesBetween": "always",
+                "groups": [
+                    ["/^react/", "/^next/"],
+                    ["/@mui/", "/@next/"],
+                    "module",
+                    "/^@shared/",
+                    "/absolute/",
+                    [
+                        "parent",
+                        "sibling",
+                        "index"
+                    ]
+                ],
+                "alphabetize": {
+                    "order": "asc",
+                    "ignoreCase": true
+                }
+            }
+        ]
+    }
+}
+```
+
+<br />
+
+### NodeJS - NextJS - Prettier
+```text
+{
+    "trailingComma": "none",
+    "semi": true,
+    "singleQuote": false
+}
+```
+
+<br />
+
+### NodeJS - NextJS - VSCode Settings
+```text
+{
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+}
 ```
