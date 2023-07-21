@@ -48,6 +48,10 @@ sudo apt install vim curl wget git unzip
 ```
 
 <br />
+
+## WSL 2 - [wslu](https://wslutiliti.es/wslu/)
+
+<br />
   
 ### Zsh
 
