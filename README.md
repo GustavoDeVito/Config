@@ -167,17 +167,6 @@ docker-compose --version
 ```bash
 sudo service docker start
 ```
-    
- *Windows 11*
- 
-```bash
-sudo vim /etc/wsl.conf
-```
-    
-```txt
-[boot]
-command="service docker start" 
-```
 
 <br />
 
