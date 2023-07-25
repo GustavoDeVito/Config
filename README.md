@@ -351,7 +351,7 @@ yarn add --dev eslint-plugin-import-helpers
 
 ### NodeJS - NextJS - Prettier
 ```text
-//.prettier
+//.prettierrc
 {
     "trailingComma": "none",
     "semi": true,
