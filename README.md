@@ -304,15 +304,18 @@ yarn add --dev eslint-plugin-import-helpers
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended",
         "plugin:prettier/recommended",
         "prettier"
     ],
+    "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
     "plugins": [
         "react",
+        "@typescript-eslint",
         "react-hooks",
         "eslint-plugin-import-helpers"
     ],
