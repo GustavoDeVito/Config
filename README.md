@@ -279,8 +279,9 @@ pip3 install notebook
 
 ```bash
 npm init @eslint/config
-yarn add eslint-plugin-react-hooks --dev
 
+yarn add --dev @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint
+yarn add --dev eslint-plugin-react-hooks
 yarn add --dev --exact prettier
 yarn add --dev eslint-config-prettier eslint-plugin-prettier
 yarn add --dev eslint-plugin-import-helpers
