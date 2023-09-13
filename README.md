@@ -173,34 +173,14 @@ sudo service docker start
 ## WSL 2 - Node.js
 
 ```bash
-curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
-sudo apt-get install -y nodejs
-node -v
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+source ~/.bashrc
+source ~/.zshrc
 ```
 
 *yarn*
 ```bash
 sudo npm install --global yarn
-```
-
-*pnpm*
-```bash
-sudo npm install -g pnpm
-```
-
-<br />
-
-## WSL 2 - Golang
-
-*Verification version: [GO](https://go.dev/dl/)*
-```bash
-wget https://golang.org/dl/go1.19.3.linux-amd64.tar.gz
-tar -xzf go1.19.3.linux-amd64.tar.gz -C /usr/local/
-sudo tar -xzf go1.19.3.linux-amd64.tar.gz -C /usr/local/
-rm -rf go1.19.3.linux-amd64.tar.gz
-sudo vim /etc/profile
-source /etc/profile
-go version
 ```
 
 <br />
