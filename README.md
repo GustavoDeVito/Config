@@ -185,7 +185,7 @@ nvm install (node-version)
 
 *yarn*
 ```bash
-sudo npm install --global yarn
+npm install --global yarn
 ```
 
 <br />
