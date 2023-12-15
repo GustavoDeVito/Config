@@ -239,6 +239,22 @@ sudo rm -rf instantclient-basic-linux.x64-21.4.0.0.0dbru.zip
 
 <br />
 
+### WSL 2 - Golang
+
+```bash
+# https://golang.org/dl/
+wget https://golang.org/dl/go1.x.x.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.x.x.linux-amd64.tar.gz
+```
+
+```bash
+echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.zshrc
+source ~/.zshrc
+go version
+```
+
+<br />
+
 ## WSL 2 - Python
 
 ```bash
