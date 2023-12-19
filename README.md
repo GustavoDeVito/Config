@@ -226,7 +226,7 @@ sudo mkdir /opt/oracle
 cd /opt/oracle
 
 sudo wget https://download.oracle.com/otn_software/linux/instantclient/214000/instantclient-basic-linux.x64-21.4.0.0.0dbru.zip
-unzip instantclient-basic-linux.x64-21.4.0.0.0dbru.zip
+sudo unzip instantclient-basic-linux.x64-21.4.0.0.0dbru.zip
 
 sudo apt update
 sudo apt install libaio1
