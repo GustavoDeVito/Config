@@ -36,7 +36,7 @@ vim C:\Users\<username>\.wslconfig
 ```txt
 [wsl2]
 memory=8GB
-processos=4
+processors=4
 swap=2GB
 ```
 
