@@ -195,7 +195,7 @@ npm install --global yarn
 ## WSL 2 - Java
 
 ```bash
-sudo apt install openjdk-17-jdk openjdk-17-jre
+sudo apt install openjdk-21-jdk openjdk-21-jre
 java --version
 javac --version
 ```
