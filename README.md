@@ -205,9 +205,12 @@ javac --version
 ### WSL 2 - Maven
 
 ```bash
-wget https://mirrors.estointernet.in/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
-tar -xvf apache-maven-3.6.3-bin.tar.gz
-sudo mv apache-maven-3.6.3 /opt/
+wget https://mirrors.estointernet.in/apache/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
+tar -xvf apache-maven-3.8.6-bin.tar.gz
+sudo mv apache-maven-3.8.6 /opt/
+```
+
+```bash
 vim ~/.zshrc
 source ~/.zshrc
 mvn --version
@@ -215,7 +218,7 @@ mvn --version
 
 ```txt
 [zshrc]
-M2_HOME=/opt/apache-maven-3.6.3
+M2_HOME=/opt/apache-maven-3.8.6
 PATH=$M2_HOME/bin:$PATH
 ```
 
