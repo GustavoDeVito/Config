@@ -218,8 +218,8 @@ mvn --version
 
 ```txt
 [zshrc]
-M2_HOME=/opt/apache-maven-3.8.5
-PATH=$M2_HOME/bin:$PATH
+export M2_HOME=/opt/apache-maven-3.8.5
+export PATH=$M2_HOME/bin:$PATH
 ```
 
 <br />
