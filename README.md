@@ -51,7 +51,7 @@ sudo apt install ansible
 ```
 
 ```bash
-sudo ansible-playbook -i localhost, -c local playbook.yml --extra-vars "user_name=gustavodevito"
+sudo ansible-playbook -i localhost, -c local playbook.yml --extra-vars "user_name=your_username"
 ```
 
 *Execute with o file `playbook.yml` in repository*
