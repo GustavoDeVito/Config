@@ -3,7 +3,6 @@
   - [Visual Studio Code](https://code.visualstudio.com/download)
   - [Git](https://git-scm.com/downloads) - [*Config*](https://git-scm.com/book/pt-br/v2/Começando-Configuração-Inicial-do-Git) - [*SSH*](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux)
   - [Font Powerline](https://gist.github.com/stramel/658d702f3af8a86a6fe8b588720e0e23)
-  - [FiraCode](https://dev.to/josuerodriguez98/installing-firacode-on-windows-and-ubuntu-1fn1)
   - [Inter](https://fonts.google.com/specimen/Inter)
   - [JetBrains Mono](https://www.jetbrains.com/pt-br/lp/mono/)
 
@@ -42,11 +41,13 @@ swap=2GB
 
 <br />
 
-## WSL 2 - Ubuntu
+## WSL 2
 
 ```bash
 sudo apt update
-sudo apt install vim curl wget git unzip
+sudo apt install software-properties-common
+sudo add-apt-repository --yes --update ppa:ansible/ansible
+sudo apt install ansible
 ```
   
 ### Zsh
