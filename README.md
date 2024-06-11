@@ -41,7 +41,7 @@ swap=2GB
 
 <br />
 
-## WSL 2
+### Ansible
 
 ```bash
 sudo apt update
@@ -49,7 +49,9 @@ sudo apt install software-properties-common
 sudo add-apt-repository --yes --update ppa:ansible/ansible
 sudo apt install ansible
 ```
-  
+
+<br />
+
 ### Zsh
 
 *Install*
