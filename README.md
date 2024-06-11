@@ -50,6 +50,12 @@ sudo add-apt-repository --yes --update ppa:ansible/ansible
 sudo apt install ansible
 ```
 
+```bash
+sudo ansible-playbook -i localhost, -c local playbook.yml --extra-vars "user_name=gustavodevito"
+```
+
+*Execute with o file `playbook.yml` in repository*
+
 <br />
 
 ### Zsh
