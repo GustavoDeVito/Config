@@ -41,23 +41,6 @@ swap=2GB
 
 <br />
 
-### Ansible
-
-```bash
-sudo apt update
-sudo apt install software-properties-common
-sudo add-apt-repository --yes --update ppa:ansible/ansible
-sudo apt install ansible
-```
-
-```bash
-sudo ansible-playbook -i localhost, -c local playbook.yml --extra-vars "user_name=your_username"
-```
-
-*Execute with o file `playbook.yml` in repository*
-
-<br />
-
 ### Zsh
 
 *Install*
@@ -116,3 +99,20 @@ source ~/.zshrc
 #Reset Config
 p10k configure
 ```
+
+<br />
+
+### Ansible
+
+```bash
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository --yes --update ppa:ansible/ansible
+sudo apt install ansible
+```
+
+```bash
+sudo ansible-playbook -i localhost, -c local playbook.yml --extra-vars "user_name=your_username"
+```
+
+*Execute with o file `playbook.yml` in repository*
